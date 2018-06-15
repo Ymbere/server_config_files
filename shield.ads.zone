@@ -1,0 +1,19 @@
+$TTL	 604800
+@	IN SOA shield.ads. root.shield.ads. (
+        2000072001	; serial
+       	28800		; refresh
+	14400		; retry
+        3600000		; expire
+        84400 )		; minimun
+;
+
+WWW	IN A	 172.16.0.2
+server  IN A	 172.16.0.2
+
+@       IN MX	 10	shield.ads.
+@       IN NS		shield.ads.
+@       IN A		172.16.0.5
+
+
+
+     
